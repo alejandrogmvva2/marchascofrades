@@ -40,7 +40,6 @@ client.on("message", async message => {
       connection.play(
         "https://node-02.zeno.fm/eqvd91xa8a0uv"
          );
-      message.channel.send('Cargando...')
       message.react("✅");
          } else {
       message.reply('Necesitas unirte a un canal de voz primero.');
@@ -48,4 +47,4 @@ client.on("message", async message => {
       }
     });
   
-  client.login("PONER");
+  client.login("NzAzMTAxMzY0NzA3Nzg2ODA0.XqJsLA.yZsvyUrTm-Ka4N2zAgyXwdyVujU");
